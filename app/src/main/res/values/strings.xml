@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">My soft</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-7908895047124036/1625511903</string>
+    <string name="abaut_text" translatable="false">
+        \n
+        +++++
+         \n
+         2017 , Deomin Dmitriy
+         \n
+         E-mail:58627@bk.ru
+        \n\n
+        libraries used:
+        \n\n
+        * Color-picker-view
+        \n
+        com.github.danielnilsson9:color-picker-view:1.4.0@aar
+        \n
+        \n
+        * Supertoasts
+        \n
+        com.github.johnpersano:supertoasts:1.3.4@aar
+        \n
+        \n
+          * zip4j
+         \n
+         http://www.lingala.net/zip4j
+         \n
+         \n
+          * ExFilePicker
+         \n
+         ru.bartwell:exfilepicker:2.1j
+         \n
+         \n
+        Поддержать проект Qiwi 79027228625
+    </string>
+    <string name="Yes">Да</string>
+    <string name="No">Нет</string>
+    <string name="send_cherez_telegram">Отправить через Telegram?</string>
+    <string name="size">Размер:</string>
+    <string name="send_bez_voprosov">Отправлять без вопросов</string>
+    <string name="sprashivat_pered_send">Спрашивать перед отправкой</string>
+    <string name="delete_cash">Очистить кеш:</string>
+    <string name="cash_delete_ok">Кеш очищен</string>
+    <string name="sistem_not_send_app">Системе не удалось (</string>
+    <string name="error_no_apk_file">Ошибка не найден apk файл</string>
+    <string name="dopolnitelnay_papka_dla_programmi">Для этой программы есть папка с кэшем\nвыберите что отправить\n(папка будет упакована в zip архив)</string>
+    <string name="otpravit_cash">Отправить\nкэш</string>
+    <string name="send_apk">Отправить\n.apk</string>
+    <string name="copy_kash">Копирование в кеш</string>
+    <string name="notifi_text_idet_upakovka">Идет упаковка в zip архив</string>
+    <string name="pakuetsa">Пакуется:</string>
+    <string name="gotovo">Готово</string>
+    <string name="zip_start">Сжатие началось</string>
+    <string name="gotoviy_archiv_suchestvuet">Готовый архив существует</string>
+    <string name="unpak_cash">Распаковать zip\n(в Android/obb)</string>
+    <string name="upakovka_zavershena">Упаковка завершена успешно</string>
+    <string name="erro_file">Ошибка файл не найден</string>
+    <string name="unzip_start">Распаковка началась</string>
+    <string name="razpakovivaetca">Текущий:</string>
+    <string name="idet_razpokovka">Идет распаковка zip в /Android/obb/</string>
+    <string name="color_element_spisok">Цвет элемента списка</string>
+    <string name="edit">Изменить</string>
+    <string name="edtt_font">Изменить шрифт</string>
+    <string name="animacia">Анимация</string>
+    <string name="metod_zip_press">Метод сжатия zip</string>
+    <string name="color_fon">Цвет фона</string>
+    <string name="color_text">Цвет текста</string>
+    <string name="zip_delete">Архив удалён</string>
+    <string name="telegram_ne_nayden">Telegram не найден\nскачать его?</string>
+    <string name="kak_send">Как отправить?</string>
+    <string name="pristavka_pri_poike">Приставка поиска при клике на название</string>
+    <string name="setting_system">Настройки системы \n</string>
+    <string name="setting_user_interveys">Настройки интерфейса \n</string>
+    <string name="standart">Стандартный</string>
+    <string name="ustanovleniy">Установленный софт</string>
+    <string name="oproge">О программе</string>
+    <string name="setting">Настройки</string>
+    <string-array name="anim_logo_list">
+        <item>Выключить</item>
+        <item>Tada</item>
+        <item>TakingOff</item>
+        <item>Flash</item>
+        <item>Pulse</item>
+        <item>RubberBand</item>
+        <item>Shake</item>
+        <item>Swing</item>
+        <item>Wobble</item>
+        <item>Landing</item>
+        <item>Bounce</item>
+        <item>StandUp</item>
+        <item>Wave</item>
+        <item>Hinge</item>
+        <item>RollIn</item>
+        <item>RollOut</item>
+        <item>BounceIn</item>
+        <item>BounceInDown</item>
+        <item>BounceInLeft</item>
+        <item>BounceInRight</item>
+        <item>BounceInUp</item>
+        <item>FadeIn</item>
+        <item>FadeInUp</item>
+        <item>FadeInDown</item>
+        <item>FadeInLeft</item>
+        <item>FadeInRight</item>
+        <item>FadeOut</item>
+        <item>FadeOutDown</item>
+        <item>FadeOutLeft</item>
+        <item>FadeOutRight</item>
+        <item>FadeOutUp</item>
+        <item>FlipInX</item>
+        <item>FlipOutX</item>
+        <item>FlipOutY</item>
+        <item>RotateIn</item>
+        <item>RotateInDownLeft</item>
+        <item>RotateInDownRight</item>
+        <item>RotateInUpLeft</item>
+        <item>RotateInUpRight</item>
+        <item>RotateOut</item>
+        <item>RotateOutDownLeft</item>
+        <item>RotateOutDownRight</item>
+        <item>RotateOutUpLeft</item>
+        <item>RotateOutUpRight</item>
+        <item>SlideInLeft</item>
+        <item>SlideInRight</item>
+        <item>SlideInUp</item>
+        <item>SlideInDown</item>
+        <item>SlideOutLeft</item>
+        <item>SlideOutRight</item>
+        <item>SlideOutUp</item>
+        <item>SlideOutDown</item>
+        <item>ZoomIn</item>
+        <item>ZoomInDown</item>
+        <item>ZoomInLeft</item>
+        <item>ZoomInRight</item>
+        <item>ZoomInUp</item>
+        <item>ZoomOut</item>
+        <item>ZoomOutDown</item>
+        <item>ZoomOutLeft</item>
+        <item>ZoomOutRight</item>
+        <item>ZoomOutUp</item>
+        <item>DropOut</item>
+    </string-array>
+</resources>

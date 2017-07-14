@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fon_abaut">
+
+    <TextView
+        android:id="@+id/ShimmerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_alignParentBottom="false" />
+
+    <dmitriy.deomin.mysoft.Text
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/textView_abaut"
+        android:textSize="22dp"
+        android:textIsSelectable="true"
+        android:onClick="finish"
+        android:gravity="center"
+        android:linksClickable="true" />
+
+    <ImageButton
+android:layout_width="40dp"
+android:layout_height="40dp"
+        android:id="@+id/imageButton"
+android:scaleType="centerCrop"
+android:onClick="opengruppa"
+android:src="@drawable/vk"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

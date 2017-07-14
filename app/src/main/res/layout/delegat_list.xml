@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dmitriy.deomin.mysoft.Fon_item xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fon_pop_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="2dp"
+    android:alpha="0.8"
+    android:elevation="0dp"
+    app:cardBackgroundColor="@color/green"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:cardPreventCornerOverlap="false">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ava_soft"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_margin="4dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <dmitriy.deomin.mysoft.Text
+                android:id="@+id/Text_name_soft"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="Name"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="131dp"
+                tools:layout_editor_absoluteY="0dp"
+                tools:text="5555555" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_info_o_proge"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/ic_menu_info_details"
+                    android:gravity="end"
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="128dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <Button
+                    android:id="@+id/button_open_google_play"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/btn_star"
+                    android:gravity="end"
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="128dp"
+                    tools:layout_editor_absoluteY="40dp" />
+
+                <Button
+                    android:id="@+id/button_delete"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@android:drawable/ic_menu_delete"
+                    android:gravity="end" />
+
+                <Button
+                    android:id="@+id/button_cshre"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@android:drawable/ic_menu_share"
+                    android:gravity="end"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteY="40dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</dmitriy.deomin.mysoft.Fon_item>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dmitriy.deomin.mysoft.Fon_item
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="0dp"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardPreventCornerOverlap="false">
+
+<LinearLayout
+    android:id="@+id/fon_compres"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_compres1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Lowest compression" />
+
+    <Button
+        android:id="@+id/button_compres2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Low compression" />
+
+    <Button
+        android:id="@+id/button_compres3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Optimal balance" />
+
+    <Button
+        android:id="@+id/button_compres4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="High compression" />
+
+    <Button
+        android:id="@+id/button_compres5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Highest compression" />
+</LinearLayout>
+
+    </dmitriy.deomin.mysoft.Fon_item>

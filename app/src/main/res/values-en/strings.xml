@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">My soft</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="send_cherez_telegram">Send via Telegram?</string>
+    <string name="size">Size:</string>
+    <string name="send_bez_voprosov">Send without issues</string>
+    <string name="sprashivat_pered_send">To ask before sending</string>
+    <string name="delete_cash">Clear cache:</string>
+    <string name="cash_delete_ok">The cache is cleared</string>
+    <string name="sistem_not_send_app">The system has failed (</string>
+    <string name="error_no_apk_file">Error not found the apk file</string>
+    <string name="dopolnitelnay_papka_dla_programmi">For this program there is a folder with cache\n select what to send\n(the folder will be Packed in a zip archive)</string>
+    <string name="otpravit_cash">Send\ncache</string>
+    <string name="send_apk">Send\n.apk</string>
+    <string name="copy_kash">Copying to the cache</string>
+    <string name="notifi_text_idet_upakovka">Comes package in a zip archive</string>
+    <string name="pakuetsa">Packed:</string>
+    <string name="gotovo">Ready</string>
+    <string name="zip_start">Compression began</string>
+    <string name="gotoviy_archiv_suchestvuet">Ready archive exists</string>
+    <string name="unpak_cash">Unpack the zip\n(in Android/obb)</string>
+    <string name="upakovka_zavershena">Packaging completed successfully</string>
+    <string name="erro_file">Error file not found</string>
+    <string name="unzip_start">Unpacking began</string>
+    <string name="razpakovivaetca">Current:</string>
+    <string name="idet_razpokovka">Is decompress zip in/Android/obb/</string>
+    <string name="color_element_spisok">The color of the list item</string>
+    <string name="edit">To change</string>
+    <string name="edtt_font">To change the font</string>
+    <string name="animacia">Animation</string>
+    <string name="metod_zip_press">The compression method zip</string>
+    <string name="color_fon">Background color</string>
+    <string name="color_text">The color of the text</string>
+    <string name="zip_delete">Archive deleted</string>
+    <string name="telegram_ne_nayden">Telegram is not found\n download it?</string>
+    <string name="kak_send">How to send?</string>
+    <string name="pristavka_pri_poike">The prefix search by clicking on the name</string>
+    <string name="setting_system">System settings \n</string>
+    <string name="setting_user_interveys">Interface settings \n</string>
+    <string name="standart">Standard</string>
+    <string name="ustanovleniy">The installed software</string>
+    <string name="oproge">About the program</string>
+    <string name="setting">Settings</string>
+    <string-array name="anim_logo_list">
+        <item>Off</item>
+        <item>Tada</item>
+        <item>TakingOff</item>
+        <item>Flash</item>
+        <item>Pulse</item>
+        <item>RubberBand</item>
+        <item>Shake</item>
+        <item>Swing</item>
+        <item>Wobble</item>
+        <item>Landing</item>
+        <item>Bounce</item>
+        <item>StandUp</item>
+        <item>Wave</item>
+        <item>Hinge</item>
+        <item>RollIn</item>
+        <item>RollOut</item>
+        <item>BounceIn</item>
+        <item>BounceInDown</item>
+        <item>BounceInLeft</item>
+        <item>BounceInRight</item>
+        <item>BounceInUp</item>
+        <item>FadeIn</item>
+        <item>FadeInUp</item>
+        <item>FadeInDown</item>
+        <item>FadeInLeft</item>
+        <item>FadeInRight</item>
+        <item>FadeOut</item>
+        <item>FadeOutDown</item>
+        <item>FadeOutLeft</item>
+        <item>FadeOutRight</item>
+        <item>FadeOutUp</item>
+        <item>FlipInX</item>
+        <item>FlipOutX</item>
+        <item>FlipOutY</item>
+        <item>RotateIn</item>
+        <item>RotateInDownLeft</item>
+        <item>RotateInDownRight</item>
+        <item>RotateInUpLeft</item>
+        <item>RotateInUpRight</item>
+        <item>RotateOut</item>
+        <item>RotateOutDownLeft</item>
+        <item>RotateOutDownRight</item>
+        <item>RotateOutUpLeft</item>
+        <item>RotateOutUpRight</item>
+        <item>SlideInLeft</item>
+        <item>SlideInRight</item>
+        <item>SlideInUp</item>
+        <item>SlideInDown</item>
+        <item>SlideOutLeft</item>
+        <item>SlideOutRight</item>
+        <item>SlideOutUp</item>
+        <item>SlideOutDown</item>
+        <item>ZoomIn</item>
+        <item>ZoomInDown</item>
+        <item>ZoomInLeft</item>
+        <item>ZoomInRight</item>
+        <item>ZoomInUp</item>
+        <item>ZoomOut</item>
+        <item>ZoomOutDown</item>
+        <item>ZoomOutLeft</item>
+        <item>ZoomOutRight</item>
+        <item>ZoomOutUp</item>
+        <item>DropOut</item>
+    </string-array>
+</resources>

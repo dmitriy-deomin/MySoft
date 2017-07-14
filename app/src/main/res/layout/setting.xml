@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fon_setting"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/background_kitkat_green"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <dmitriy.deomin.mysoft.Text
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="@string/setting_system"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <dmitriy.deomin.mysoft.Text
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/pristavka_pri_poike" />
+
+        <EditText
+            android:id="@+id/poisk_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="pro " />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_level_compres"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:onClick="edit_compres"
+        android:text="@string/metod_zip_press" />
+
+
+    <dmitriy.deomin.mysoft.Text
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/setting_user_interveys"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <dmitriy.deomin.mysoft.Text
+            android:id="@+id/textView_edit_fon_color"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="@string/color_fon" />
+
+        <Button
+            android:id="@+id/button_edit_fon_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Edit_color_fon"
+            android:text="@string/edit" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <dmitriy.deomin.mysoft.Text
+            android:id="@+id/textView_edit_color_posty"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="@string/color_element_spisok" />
+
+        <Button
+            android:id="@+id/button_edit_color_posty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Edit_color_fon"
+            android:text="@string/edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <dmitriy.deomin.mysoft.Text
+            android:id="@+id/textView_edit_color_text"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="@string/color_text" />
+
+        <Button
+            android:id="@+id/button_edit_color_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Edit_color_fon"
+            android:text="@string/edit" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_edit_fonts"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/transparent"
+        android:onClick="edit_fonts"
+        android:text="@string/edtt_font" />
+
+
+</LinearLayout>
